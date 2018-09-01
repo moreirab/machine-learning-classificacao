@@ -5,7 +5,7 @@ def carregar_acessos():
     Y = []
 
     # abre um arquivo
-    arquivo = open('acesso.csv', 'rb')
+    arquivo = open('classificacao/resources/acesso.csv', 'rb')
     # cria um leitor baseado no arquivo passado como parametro
     leitor = csv.reader(arquivo)
     # ignora a primeira linha com o cabecalho do arquivo
