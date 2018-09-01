@@ -7,7 +7,7 @@ X,Y = carregar_acessos()
 treino_dados = X[:90]
 treino_marcacoes = Y[:90]
 
-# separa as 9 últimas linhas para testar o algoritmo
+# separa as 9 ultimas linhas para testar o algoritmo
 teste_dados = X[-9:]
 teste_marcacoes = Y[-9:]
 
